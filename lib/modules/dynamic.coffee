@@ -1,5 +1,5 @@
 
-fs = require 'fs'
+fs = require 'graceful-fs'
 pathutil = require 'path'
 async = require 'async'
 mime = require 'mime'

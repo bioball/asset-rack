@@ -1,4 +1,4 @@
-fs = require 'fs'
+fs = require 'graceful-fs'
 pathutil = require 'path'
 uglify = require 'uglify-js'
 async = require 'async'

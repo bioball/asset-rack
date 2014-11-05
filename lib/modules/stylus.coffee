@@ -1,4 +1,4 @@
-fs = require 'fs'
+fs = require 'graceful-fs'
 pathutil = require 'path'
 nib = require 'nib'
 stylus = require 'stylus'

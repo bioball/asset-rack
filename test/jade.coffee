@@ -3,7 +3,7 @@ should = require('chai').should()
 rack = require '../.'
 express = require 'express.io'
 easyrequest = require 'request'
-fs = require 'fs'
+fs = require 'graceful-fs'
 
 # Note: Direct file comparisons for tests exhibited
 # cross platform testing issues. 

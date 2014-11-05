@@ -4,7 +4,7 @@ pathutil = require 'path'
 rack = require '../.'
 express = require 'express.io'
 easyrequest = require 'request'
-fs = require 'fs'
+fs = require 'graceful-fs'
 
 describe 'a javascript asset', ->
     app = null

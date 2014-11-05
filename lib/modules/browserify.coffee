@@ -1,4 +1,4 @@
-fs = require 'fs'
+fs = require 'graceful-fs'
 pathutil = require 'path'
 browserify = require 'browserify'
 uglify = require('uglify-js')
