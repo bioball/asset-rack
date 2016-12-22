@@ -39,7 +39,7 @@ class exports.Asset extends EventEmitter
         @headers = headers
 
         # Get the extension from the url
-        @ext = pathutil.extname @url
+        @ext = if @url then pathutil.extname @url else ''
 
         # Set whether to watch or not
         @watch = options.watch
